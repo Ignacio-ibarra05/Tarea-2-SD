@@ -1,0 +1,10 @@
+para iniciar el docker
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+
+
+para iniciar producer
+node producer.js
+
+
+para iniciar consumer
+node consumer.js
